@@ -1,0 +1,80 @@
+:root {
+    --accent-color: #2196F3;
+    --logo-color: #000000;
+    --title-color: #FFFFFF;
+    --role-color: #757575;
+    --color: #212121;
+    --background-color1: #F5F4FA;
+    --background-color: #2F303A;
+    --main-font: "Raleway" , "sans-serif";
+    --second-font: "Roboto" , "sans-serif";
+}
+
+body {
+     color: #757575;
+     background-color: #FFFFFF;
+     font-family: var(--second-font)
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.portfolio-list,
+.nav-list {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.hero {
+  padding-top: 200px;
+  padding-bottom: 280px;
+}
+
+.details {
+  padding-bottom: 94px;
+}
+
+.doing-title {
+  padding-bottom: 50px;
+}
+
+.doing-item {
+  padding-bottom: 94px;
+}
+
+.team-title {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.team-list {
+  padding-bottom: 94px;
+}
+
+.footer-logo {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.address {
+  padding-bottom: 60px;
+}
+
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+doing-img{
+      width: 300px;
+      height: 300px;
+}
+.team-img{
+  width: 200px;
+  height: 200px;
+}
