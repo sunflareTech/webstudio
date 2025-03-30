@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --footer-bg-color: rgba(47, 48, 58, 1);
+    --text-color: rgba(117, 117, 117, 1);
+    --button-color: #212121;
+    --button-background-color: #F5F4FA;
+    --button-active-bg--color: #2196F3;
+    --hero-section-bg-color: #2F303A;
+    --contact-text-color: #757575;
+    --main-font: "Roboto", serif;
+    --icon-font: "Raleway", serif;
+    --team-background-color: #F5F4FA;
+    --main-title-color: white;
+    --adress-color: white;
+    --nav-color: white;
+    --button-active-color: #F5F4FA;
+    --address-color: #212121;
+    --link-active-color: #2196F3;
+}
+* {
+    font-family: var(--main-style);
+}
+footer {
+    background-color: var(--footer-bg-color);
+}
+.hero {
+    background-color: var(--hero-section-bg-color);
+}
+p {
+    color: var(--text-color);
+}
+.hero-heading, .footer-item, .header-link, .hero-button-active {
+    color: var(--main-title-color);
+}
+h2, h3, button, .header-link {
+    color: #212121;
+}
+.hero-button-active {
+    background-color: var(--button-active-bg--color);
+}
+h1, h2, h3 {
+    text-align: center;
+}
+.header-email, .header-tel, .footer-email, .footer-tel {
+    color: var(--contact-text-color);
+}
+.header-email:active, .header-tel:active, .footer-email:active, .footer-tel:active {
+    color: var(--link-active-color);
+}
+/*Logo*/
+a.logo {
+    color: var(--link-active-color);
+}
+.header-logo-span {
+    color: var(--button-color);
+}
+.footer-logo-span {
+    color: var(--main-title-color);
+}
+.header-link {
+    color: var(--address-color);
+}
+.header-link:active {
+    color: var(--link-active-color);
+}
+.team{
+    background-color: var(--team-background-color);
+}
+button {
+    background-color: var(--button-background-color);
+}
+.hero-heading {
+    width: 696px;
+    font-weight: 900;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+ul {
+	list-style: none;
+}
+.team-item {
+    width: 270px;
+    height: 368px;
+}
+/*container*/
+/*nav*/.header-container {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*Шапка*/.hero-container {
+    margin-top: 0;
+    margin-bottom: 94px;
+}
+/*Особливості*/
+.-special-container {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+/*Чим ми займаємося*/
+.tasks-container {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+/*Наша команда*/
+.team-container {
+    margin-top: 94px;
+    margin-bottom: 0;
+}
+/*footer*/
+.footer-container {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*projekts*/
+.projekts-container {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+section div, .header-container, .footer-container {
+    display: flex;
+    max-width: 1170px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/*flex-box*/
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.filters {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.projekts-list {
+    display: flex;
+    align-content: center;
+    flex-flow: row wrap;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+}
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.special-container {
+    display: flex;
+}
+.tasks-container {
+    display: flex;
+    flex-direction: column;
+}
+.team-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1170px;
+}
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.header-nav-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+.header-address {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+.tasks-list {
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+}
+.team-list {
+    display: flex;
+    flex-direction: row;
+}
+.team-img {
+    max-width: 270px;
+    max-height: 260px;
+}
+.special-list {
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+}
