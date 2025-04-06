@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --footer-bg-color: rgba(47, 48, 58, 1);
+    --hero-bg-color: #2F303A;
+    --button-color: #212121;
+    --button-bg-color: #F5F4FA;
+    --button-active-color: #F5F4FA;
+    --button-active-bg-color: #2196F3;
+    --active-color: #2196f3;
+    --contact-text-color: #757575;
+    --team-bg-color: #F5F4FA;
+    --team-item-bg-color: white;
+    --main-title-color: white;
+    --address-color: white;
+    --header-bg-color: white;
+    --header-border: #ECECEC;
+    --text-color: rgba(117, 117, 117, 1);
+    --link-active-color: #2196F3;
+    --main-font: "Roboto", serif;
+    --icon-font: "Raleway", serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 1600px;
+    font-family: var(--main-style);
+}
+footer {
+    background-color: var(--footer-bg-color);
+}
+.hero {
+    background-color: var(--hero-bg-color);
+    background-image: url(../images/index/teamwork.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+p {
+    color: var(--text-color);
+}
+.hero-heading, .footer-item, .header-link, .hero-button-active {
+    color: var(--main-title-color);
+}
+h2, h3, button, .header-link {
+    color: var(--button-color);
+}
+.hero-button-active {
+    background-color: var(--button-active-bg-color);
+}
+h1, h2, h3 {
+    text-align: center;
+}
+.footer-street {
+    color: var(--address-color);
+}
+.header-contat, .footer-contact {
+    color: var(--contact-text-color);
+}
+.header-contact:active, .footer-contact:active{
+    color: var(--link-active-color);
+}
+/*Logo*/
+a.logo {
+    color: var(--link-active-color);
+}
+.header-logo-span {
+    color: var(--button-color);
+}
+.footer-logo-span {
+    color: var(--main-title-color);
+}
+.header-link {
+    color: var(--contact-text-color-color);
+}
+.header-link:active {
+    color: var(--link-active-color);
+}
+.team {
+    background-color: var(--team-bg-color);
+}
+button {
+    background-color: var(--button-background-color);
+}
+header {
+    border: 1px var(--header-border) solid;
+}
+.hero-title {
+    width: 696px;
+    font-weight: 900;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    color: var(--main-title-color);
+}
+ul {
+	list-style: none;
+}
+.team-item {
+    width: 270px;
+    height: 368px;
+    background-color: var(--team-item-bg-color);
+    box-shadow: 0px 2px 1px 0px #00000033;
+
+    box-shadow: 0px 1px 1px 0px #00000024;
+    
+    box-shadow: 0px 1px 3px 0px #0000001F;
+}
+.projekts-item:hover {
+    box-shadow: 1px 4px 6px 0px #00000029;
+
+    box-shadow: 0px 4px 4px 0px #0000000F;
+
+    box-shadow: 0px 1px 1px 0px #0000001F;
+
+}
+.header-container {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.hero-container {
+    margin-top: 0;
+    margin-bottom: 94px;
+}
+.-special-container {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+.tasks-container {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+.team-container {
+    margin-top: 94px;
+    margin-bottom: 0;
+}
+.footer-container {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.projekts-container {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+section div, .header-container, .footer-container {
+    display: flex;
+    max-width: 1170px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.projekts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.filters {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.projekts-list {
+    display: flex;
+    align-content: center;
+    flex-flow: row wrap;
+    gap: 30px;
+}
+.header-container {
+    display: flex;
+    flex-direction: row;
+}
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.special-container {
+    display: flex;
+}
+.tasks-container {
+    display: flex;
+    flex-direction: column;
+}
+.team-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1170px;
+}
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.header-nav-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+.header-address {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+.tasks-list {
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+}
+.team-list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.team-img {
+    max-width: 270px;
+    max-height: 260px;
+}
+.team-desc {
+    text-align: center;
+}
+.special-list {
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+}
+.special-item::before {
+
+}
+.projekts-subtitle, .projekts-filter {
+    text-align: left;
+}
+.projekts-item {
+    flex-basis: calc((100% - px) / 3);
+}
+.projekts-filters-list {
+    display: flex;
+    gap: 8px;
+    flex-direction: row;
+}
+.projekts-button:active {
+    background-color: var(--button-active-bg-color);
+    color: var(--button-active-color);
+}
+.active-website {
+    color: var(--active-color);
+}
+.active-button {
+    color: var(--button-active-color);
+    background-color: var(--button-active-bg-color);
+}
